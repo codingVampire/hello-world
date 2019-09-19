@@ -23,9 +23,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [],
+
+
+          "stylePreprocessorOptions": {
+            "includePaths": [
+              "./src/styles"
+            ]
+          }
+
+
+
           },
           "configurations": {
             "production": {
@@ -131,5 +142,6 @@
       }
     }
   },
-  "defaultProject": "hello-world"
+  "defaultProject": "hello-world" 
+
 }
